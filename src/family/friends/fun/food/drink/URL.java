@@ -18,9 +18,9 @@ public class URL {
     public static void getVenueMap(String url) {
         if(Desktop.isDesktopSupported()) {
             try {
-                Desktop.getDesktop().browse(new URI("https://www.google.com"));
+                Desktop.getDesktop().browse(new URI(url));
             } catch (URISyntaxException | IOException ex) {
-                ex.printStackTrace();
+                // eat it. no errors or exceptions for this wedding
             }
         }
     }
