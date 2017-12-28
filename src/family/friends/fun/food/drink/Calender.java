@@ -8,8 +8,9 @@ package family.friends.fun.food.drink;
 import java.util.Calendar;
 
 /**
+ * WEDDING INVITATION.
  *
- * @author abhardw7
+ * @author Ankur <3 Anwesha
  */
 public class Calender {
     
