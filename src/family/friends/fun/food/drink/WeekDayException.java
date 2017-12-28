@@ -5,7 +5,7 @@ package family.friends.fun.food.drink;
  *
  * @author Ankur <3 Anwesha
  */
-public class WeekDayException extends RuntimeException {
+public class WeekDayException extends Exception {
     
     public WeekDayException() {
         super();
