@@ -20,7 +20,7 @@ public class Invitation {
      * @return Best Wishes to us.
      */
     public String lifeMainEvent() {
-        // instantiate the newly wed couple
+        // instantiate the new couple
         Couple couple = new Couple();
         try {
             if (leavesApproved) {
